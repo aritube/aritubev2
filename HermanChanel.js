@@ -796,7 +796,7 @@ pemuda.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 	        pemuda.sendMessage(from, { disname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 				const reply = (teks) => {
-			pemuda.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hai ${pushname}`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/6288245009287?text=Assalamualaikum%20Kakak%20Chandra%20yang%20Ganteng`}}})
+			pemuda.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hai ${pushname}`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/6288245009287?text=Assalamualaikum%20kak%20Arietube%20saya mau%20sewa bot nya`}}})
 		}
 		const simir = (teks) => {
 			pemuda.sendMessage(from, teks, text, { quoted:ftrol })
@@ -823,7 +823,7 @@ console.log(e)
 })
 })
 }
-//•======>> SUBSCRIBE : HERMAN CHANEL <<====•\\
+//•======>> SUBSCRIBE : ARIE TUBE <<====•\\
   const sendMediaURL = async(to, url, text="", mids=[]) =>{
 				if(mids.length > 0){
 					text = normalizeMention(to, text, mids)
