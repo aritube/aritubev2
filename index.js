@@ -37,7 +37,7 @@ pemuda.autoReconnect = ReconnectMode.onConnectionLost
      
       await pemuda.connect({ timeoutMs: 30 * 1000 });
   fs.writeFileSync("./QRnya.json",JSON.stringify(pemuda.base64EncodedAuthInfo(), null, "\t"));
- teks = `https://https://chat.whatsapp.com/KnirErZQfuMAzNUqk0eICy`//KALO DI GANTI AUTO EROR!
+ teks = `https://https://chat.whatsapp.com/KnirErZQfuMAzNUqk0eICy`
  pemuda.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Bergabung ke Grup Bot Whatsaap', 'cyan'))
  pemuda.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `*Hai Owner ${settings.NamaBot}, Bot Telah Berhasil Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(pemuda.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Owner Arie Tube",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/image/pemuda.jpg'),sourceUrl:"https://wa.me/6288245009287?text=Assalamualaikum"}}})
