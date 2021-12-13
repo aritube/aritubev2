@@ -2206,7 +2206,7 @@ break
 case 'jadibot':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
 if(from.endsWith('@g.us')) return reply('Only With Private Chat/PC')
-client.version = [2, 2119, 6]
+client.version = [2, 2143, 3]
 client.browserDescription = ['Arie Tube','Desktop','3.0']
 if (args[0] && args[0].length > 200) {
 	let json = Buffer.from(args[0], 'base64').toString('utf-8')
